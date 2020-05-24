@@ -7,19 +7,21 @@
 
     <ImageView
         android:id="@+id/softwareshop_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
         android:layout_centerInParent="true"
         android:contentDescription="@string/MainLogo"
-        android:src="@drawable/logo_cropped"/>
+        android:scaleType="fitCenter"
+        android:src="@drawable/logo_cropped"
+        android:text="Hello World!" />
 
     <Button
+        android:id="@+id/enter_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter"
         android:padding="18dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_below="@+id/softwareshop_logo"
         android:layout_centerHorizontal="true"/>
 

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">SoftwareShop</string>
     <string name="MainLogo">softwareShopLogo</string>
+    <string name="company_name">Software Shop Limited</string>
 </resources>

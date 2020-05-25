@@ -30,12 +30,23 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:baselineAligned="false">
 
                 <RelativeLayout
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/about_us_icon"
+                        android:src="@drawable/ic_info_48px"
+                        style="@style/menuButtonImage"/>
+
+                    <TextView
+                        style="@style/menuButtonText"
+                        android:text="About Us"
+                        android:layout_below="@+id/about_us_icon"/>
 
                     <View
                         style="@style/menuButton"/>
@@ -46,6 +57,84 @@
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/location_icon"
+                        android:src="@drawable/ic_location_on_48px"
+                        style="@style/menuButtonImage"/>
+
+                    <TextView
+                        style="@style/menuButtonText"
+                        android:text="Location"
+                        android:layout_below="@+id/location_icon"/>
+
+                    <View
+                        style="@style/menuButton"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/contact_us_icon"
+                        android:src="@drawable/ic_call_48px"
+                        style="@style/menuButtonImage"/>
+
+                    <TextView
+                        style="@style/menuButtonText"
+                        android:text="Contact Us"
+                        android:layout_below="@+id/contact_us_icon"/>
+
+                    <View
+                        style="@style/menuButton"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/message_icon"
+                        android:src="@drawable/ic_message"
+                        style="@style/menuButtonImage"/>
+
+                    <TextView
+                        style="@style/menuButtonText"
+                        android:text="Message"
+                        android:layout_below="@+id/message_icon"/>
+
+                    <View
+                        style="@style/menuButton"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/website_icon"
+                        android:src="@drawable/ic_computer_48px"
+                        style="@style/menuButtonImage"/>
+
+                    <TextView
+                        style="@style/menuButtonText"
+                        android:text="Website"
+                        android:layout_below="@+id/website_icon"/>
 
                     <View
                         style="@style/menuButton"/>
@@ -67,44 +156,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
-                android:orientation="horizontal">
-
-                <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1">
-
-                    <View
-                        style="@style/menuButton"/>
-
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1">
-
-                    <View
-                        style="@style/menuButton"/>
-
-                </RelativeLayout>
-
-                <RelativeLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1">
-
-                    <View
-                        style="@style/menuButton"/>
-
-                </RelativeLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:baselineAligned="false">
 
                 <RelativeLayout
                     android:layout_width="0dp"

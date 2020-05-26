@@ -2,7 +2,6 @@ package com.softwareshopltd.softwareshop;
 
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.FragmentActivity;
 
 import android.os.Bundle;
 

@@ -19,6 +19,14 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@color/colorPrimary">
+
+
+            </RelativeLayout>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -31,7 +39,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="horizontal"
-                android:baselineAligned="false">
+                android:baselineAligned="false"
+                android:background="#FFFFFF">
 
                 <RelativeLayout
                     android:layout_width="0dp"
@@ -49,7 +58,8 @@
                         android:layout_below="@+id/about_us_icon"/>
 
                     <View
-                        style="@style/menuButton"/>
+                        style="@style/menuButton"
+                        android:onClick="enterInfo"/>
 
                 </RelativeLayout>
 
@@ -69,7 +79,8 @@
                         android:layout_below="@+id/location_icon"/>
 
                     <View
-                        style="@style/menuButton"/>
+                        style="@style/menuButton"
+                        android:onClick="enterMap"/>
 
                 </RelativeLayout>
 
@@ -89,7 +100,8 @@
                         android:layout_below="@+id/contact_us_icon"/>
 
                     <View
-                        style="@style/menuButton"/>
+                        style="@style/menuButton"
+                        android:onClick="enterDial"/>
 
                 </RelativeLayout>
 
@@ -99,6 +111,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="horizontal"
+                android:background="#FFFFFF"
                 android:baselineAligned="false">
 
                 <RelativeLayout
@@ -117,7 +130,8 @@
                         android:layout_below="@+id/message_icon"/>
 
                     <View
-                        style="@style/menuButton"/>
+                        style="@style/menuButton"
+                        android:onClick="enterSMS"/>
 
                 </RelativeLayout>
 
@@ -137,7 +151,8 @@
                         android:layout_below="@+id/website_icon"/>
 
                     <View
-                        style="@style/menuButton"/>
+                        style="@style/menuButton"
+                        android:onClick="enterWebsite"/>
 
                 </RelativeLayout>
 
@@ -157,6 +172,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="120dp"
                 android:orientation="horizontal"
+                android:background="#FFFFFF"
                 android:baselineAligned="false">
 
                 <RelativeLayout

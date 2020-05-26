@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "767856909891",
+    "firebase_url": "https://softwareshop-bfedf.firebaseio.com",
+    "project_id": "softwareshop-bfedf",
+    "storage_bucket": "softwareshop-bfedf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:767856909891:android:1a6206090b54639017bef6",
+        "android_client_info": {
+          "package_name": "com.softwareshopltd.softwareshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "767856909891-qm076l85ck7v2l10t5cf77p6c3q6f517.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softwareshopltd.softwareshop",
+            "certificate_hash": "0e998abb70b7aaffa7f9cd71b61f184aacd063f8"
+          }
+        },
+        {
+          "client_id": "767856909891-cm8v6gd6skurfqomgq3djcig7imvka03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAC2-4xSlLMLaKLwN7H9RxmVFQWTsb5i-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "767856909891-cm8v6gd6skurfqomgq3djcig7imvka03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -46,7 +46,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
         // Add a marker in Sydney and move the camera
         LatLng cvHUB = new LatLng(6.594447, 3.3413332);
-        mMap.addMarker(new MarkerOptions().position(cvHUB).title("Marker in SoftwareShop Limited"));
+        mMap.addMarker(new MarkerOptions().position(cvHUB).title("SoftwareShop Limited").snippet("You can find us here!"))
+        .showInfoWindow();
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(cvHUB, 16.0f));
     }
 }

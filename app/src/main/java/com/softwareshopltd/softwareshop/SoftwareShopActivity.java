@@ -14,8 +14,10 @@ import android.view.View;
 import android.widget.Toast;
 
 import java.util.Objects;
+import java.util.Timer;
+import java.util.TimerTask;
 
-public class SoftwareShopActivity extends FragmentActivity {
+public class SoftwareShopActivity extends AppCompatActivity {
 
     private static final int NUM_PAGES = 3;
 
@@ -28,12 +30,15 @@ public class SoftwareShopActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_software_shop);
 
-//        Objects.requireNonNull(getSupportActionBar()).setElevation(0);
+        Objects.requireNonNull(getSupportActionBar()).setElevation(0);
 
 
         banner = findViewById(R.id.pager);
         pagerAdapter = new ScreenSlidePagerAdapter(this);
         banner.setAdapter(pagerAdapter);
+
+        Timer timer = new Timer();
+        timer.scheduleAtFixedRate(new MyTimerTask(), 500, 2000);
     }
 
     public void enterInfo(View v){
@@ -105,6 +110,25 @@ public class SoftwareShopActivity extends FragmentActivity {
             return NUM_PAGES;
         }
 
+    }
+
+    public class MyTimerTask extends TimerTask{
+
+        @Override
+        public void run(){
+
+            SoftwareShopActivity.this.runOnUiThread(new Runnable() {
+                @Override
+                public void run() {
+                    if (banner.getCurrentItem() == 2){
+                        banner.setCurrentItem(0);
+                    } else {
+                        banner.setCurrentItem(banner.getCurrentItem() + 1);
+                    }
+                }
+            });
+
+        }
     }
 
 }

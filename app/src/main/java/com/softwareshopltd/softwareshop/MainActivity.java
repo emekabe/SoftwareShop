@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button enterButton;
 
-    private static final int SPLASH_SCREEN_TIMEOUT = 1000;
+    private static final int SPLASH_SCREEN_TIMEOUT = 200;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

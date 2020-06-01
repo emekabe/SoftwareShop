@@ -4,4 +4,8 @@
     <string name="company_name">SoftwareShop Limited</string>
     <string name="title_activity_maps">Map</string>
     <string name="office_address">4, Pepple Street, Fki Plaza, Beside Zenith Bank, Ikeja, Lagos.</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

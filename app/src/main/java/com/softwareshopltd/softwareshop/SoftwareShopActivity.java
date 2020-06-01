@@ -53,5 +53,10 @@ public class SoftwareShopActivity extends AppCompatActivity {
         startActivity(sendIntent);
     }
 
+    public void enterCVHub(View v){
+        Intent i = new Intent(this, CVHubActivity.class);
+        startActivity(i);
+    }
+
 
 }

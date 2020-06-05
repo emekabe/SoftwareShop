@@ -16,6 +16,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".UserProfileActivity"
+            android:label="My Profile"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustResize"
+            android:parentActivityName=".SoftwareShopActivity"/>
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2">
@@ -63,11 +68,13 @@
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity>
     </application>
 

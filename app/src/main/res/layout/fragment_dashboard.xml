@@ -46,13 +46,34 @@
             android:padding="8dp"
             android:background="#FFFFFF">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="DETAILS!"
-                android:textColor="@color/textColor1"
-                android:textAppearance="?android:textAppearanceLarge"
-                android:layout_marginBottom="12dp"/>
+            <RelativeLayout
+                android:id="@+id/details_button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DETAILS"
+                    android:textColor="@color/textColor1"
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="12dp"/>
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_chevron_right_24px"/>
+
+            </RelativeLayout>
+
 
             <View
                 android:id="@+id/divider"
@@ -65,7 +86,9 @@
                 android:layout_height="wrap_content"
                 android:text="45, Emeka Street, Off Simi Expressway, Eko Atlantic City, Lagos , Nigeria."
                 android:textColor="@color/textColor1"
-                android:textAppearance="?android:textAppearanceLarge"/>
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="32dp"
+                android:textAppearance="?android:textAppearanceMedium"/>
 
         </LinearLayout>
 

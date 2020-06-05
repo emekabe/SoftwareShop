@@ -19,7 +19,7 @@ import java.util.TimerTask;
 
 public class SoftwareShopActivity extends AppCompatActivity {
 
-    private static final int NUM_PAGES = 3;
+    private static final int NUM_PAGES = Integer.MAX_VALUE;
 
     private ViewPager2 banner;
 
@@ -91,15 +91,15 @@ public class SoftwareShopActivity extends AppCompatActivity {
         @Override
         public Fragment createFragment(int position) {
 
-            if (position == 1) {
+            if (position%3== 0) {
                 return new Banner1Fragment();
             }
 
-            if (position == 2) {
+            if (position%3 == 1) {
                 return new Banner2Fragment();
             }
 
-            if (position == 3) {
+            if (position%3 == 2) {
                 return new Banner3Fragment();
             }
             return new Banner2Fragment();
@@ -120,11 +120,13 @@ public class SoftwareShopActivity extends AppCompatActivity {
             SoftwareShopActivity.this.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
-                    if (banner.getCurrentItem() == 2){
-                        banner.setCurrentItem(0);
-                    } else {
-                        banner.setCurrentItem(banner.getCurrentItem() + 1);
-                    }
+//                    if (banner.getCurrentItem() == 2){
+//                        banner.setCurrentItem(0);
+//                    } else {
+//                        banner.setCurrentItem(banner.getCurrentItem() + 1);
+//                    }
+
+                    banner.setCurrentItem(banner.getCurrentItem() + 1);
                 }
             });
 

@@ -1,22 +1,230 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/appBackgroundColor"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".ui.notifications.NotificationsFragment">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/text_notifications"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:background="@color/colorPrimary">
+
+                <androidx.viewpager2.widget.ViewPager2
+                    android:id="@+id/pager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="10dp"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:padding="16dp"
+                android:textAlignment="center"
+                android:text="@string/company_name"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:baselineAligned="false"
+                android:background="#FFFFFF">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/about_us_icon"
+                        android:src="@drawable/ic_info_48px"
+                        style="@style/menuButtonImage"/>
+
+                    <TextView
+                        style="@style/menuButtonText"
+                        android:text="About Us"
+                        android:layout_below="@+id/about_us_icon"/>
+
+                    <View
+                        android:id="@+id/info_button"
+                        style="@style/menuButton"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/location_icon"
+                        android:src="@drawable/ic_location_on_48px"
+                        style="@style/menuButtonImage"/>
+
+                    <TextView
+                        style="@style/menuButtonText"
+                        android:text="Location"
+                        android:layout_below="@+id/location_icon"/>
+
+                    <View
+                        android:id="@+id/map_button"
+                        style="@style/menuButton"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/contact_us_icon"
+                        android:src="@drawable/ic_call_48px"
+                        style="@style/menuButtonImage"/>
+
+                    <TextView
+                        style="@style/menuButtonText"
+                        android:text="Contact Us"
+                        android:layout_below="@+id/contact_us_icon"/>
+
+                    <View
+                        android:id="@+id/call_button"
+                        style="@style/menuButton"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:orientation="horizontal"
+                android:background="#FFFFFF"
+                android:baselineAligned="false">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/message_icon"
+                        android:src="@drawable/ic_message"
+                        style="@style/menuButtonImage"/>
+
+                    <TextView
+                        style="@style/menuButtonText"
+                        android:text="Message"
+                        android:layout_below="@+id/message_icon"/>
+
+                    <View
+                        android:id="@+id/sms_button"
+                        style="@style/menuButton"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/website_icon"
+                        android:src="@drawable/ic_computer_48px"
+                        style="@style/menuButtonImage"/>
+
+                    <TextView
+                        style="@style/menuButtonText"
+                        android:text="Website"
+                        android:layout_below="@+id/website_icon"/>
+
+                    <View
+                        android:id="@+id/website_button"
+                        style="@style/menuButton"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/CVHub_icon"-->
+<!--                        android:src="@drawable/ic_cvhub_logo"-->
+<!--                        style="@style/menuButtonImage"/>-->
+
+<!--                    <TextView-->
+<!--                        style="@style/menuButtonText"-->
+<!--                        android:text="CVHub"-->
+<!--                        android:layout_below="@+id/CVHub_icon"/>-->
+
+<!--                    <View-->
+<!--                        style="@style/menuButton"-->
+<!--                        android:onClick="enterCVHub"/>-->
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="120dp"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:background="#FFFFFF"-->
+<!--                android:baselineAligned="false">-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1">-->
+
+<!--                    &lt;!&ndash;                    <View&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        style="@style/menuButton"/>&ndash;&gt;-->
+
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1">-->
+
+<!--                    &lt;!&ndash;                    <View&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        style="@style/menuButton"/>&ndash;&gt;-->
+
+<!--                </RelativeLayout>-->
+
+<!--                <RelativeLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_weight="1">-->
+
+<!--                    &lt;!&ndash;                    <View&ndash;&gt;-->
+<!--                    &lt;!&ndash;                        style="@style/menuButton"/>&ndash;&gt;-->
+
+<!--                </RelativeLayout>-->
+
+<!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

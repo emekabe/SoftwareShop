@@ -5,4 +5,9 @@
     <color name="colorAccent">#CD0808</color>
 
     <color name="iconColor">#E2600000</color>
+
+    <color name="appBackgroundColor">#F4F4F4</color>
+
+    <color name="textColor1">#E2393939</color>
+
 </resources>

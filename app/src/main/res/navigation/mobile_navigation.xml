@@ -14,7 +14,7 @@
     <fragment
         android:id="@+id/navigation_dashboard"
         android:name="com.softwareshopltd.softwareshop.ui.dashboard.DashboardFragment"
-        android:label="Account"
+        android:label="My Account"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment

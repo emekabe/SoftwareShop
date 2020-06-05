@@ -9,7 +9,7 @@
     <item
         android:id="@+id/navigation_dashboard"
         android:icon="@drawable/ic_person_24px"
-        android:title="Account" />
+        android:title="My Account" />
 
     <item
         android:id="@+id/navigation_notifications"

@@ -21,6 +21,7 @@
             android:background="#FFFFFF">
 
             <TextView
+                android:id="@+id/welcome_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Welcome FIRSTNAME!"
@@ -30,6 +31,7 @@
                 android:layout_marginBottom="12dp"/>
 
             <TextView
+                android:id="@+id/email_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="example@eg.com"
@@ -82,6 +84,7 @@
                 android:background="?android:attr/listDivider" />
 
             <TextView
+                android:id="@+id/address_label"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="45, Emeka Street, Off Simi Expressway, Eko Atlantic City, Lagos , Nigeria."

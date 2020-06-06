@@ -24,11 +24,19 @@ public class DashboardFragment extends Fragment {
 
     RelativeLayout detailsButton;
 
+    TextView welcomeLabel;
+    TextView emailLabel;
+    TextView addressLabel;
+
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         dashboardViewModel =
                 ViewModelProviders.of(this).get(DashboardViewModel.class);
         View root = inflater.inflate(R.layout.fragment_dashboard, container, false);
+
+        welcomeLabel = root.findViewById(R.id.welcome_label);
+        emailLabel = root.findViewById(R.id.email_label);
+        addressLabel = root.findViewById(R.id.address_label);
 
         detailsButton = root.findViewById(R.id.details_button);
 

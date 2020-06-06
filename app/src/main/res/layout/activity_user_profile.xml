@@ -55,6 +55,7 @@
             android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/first_name_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -62,12 +63,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="26dp"
+                    android:inputType="textCapSentences"
                     android:hint="First Name"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/last_name_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -75,11 +78,13 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="26dp"
+                    android:inputType="textCapSentences"
                     android:hint="Last Name"/>
 
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/email_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -120,6 +125,7 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/address_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
@@ -158,6 +164,7 @@
             android:orientation="vertical">
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/current_password_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:passwordToggleEnabled="true">
@@ -172,6 +179,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/new_password_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:passwordToggleEnabled="true">

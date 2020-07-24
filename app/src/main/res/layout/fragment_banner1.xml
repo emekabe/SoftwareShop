@@ -3,6 +3,6 @@
     android:id="@+id/content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:src="@drawable/home_banner_01"
-    android:scaleType="centerCrop"
+    android:src="@drawable/ic_figma_help_slide_image_1"
+    android:scaleType="fitCenter"
     android:contentDescription="BANNERIMAGE" />

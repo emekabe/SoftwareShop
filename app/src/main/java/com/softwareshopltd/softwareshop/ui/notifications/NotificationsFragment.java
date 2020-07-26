@@ -143,8 +143,8 @@ public class NotificationsFragment extends Fragment {
         infoButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent i = new Intent(getActivity(), InfoActivity.class);
-//                startActivity(i);
+                Intent i = new Intent(getActivity(), InfoActivity.class);
+                startActivity(i);
             }
         });
 //
@@ -235,7 +235,7 @@ public class NotificationsFragment extends Fragment {
 
         try {
             Timer timer = new Timer();
-            timer.scheduleAtFixedRate(new NotificationsFragment.MyTimerTask(), 500, 2000);
+            timer.scheduleAtFixedRate(new NotificationsFragment.MyTimerTask(), 2000, 2000);
         } catch (Exception e){
             Toast.makeText(getActivity(), "I dey crash o!", Toast.LENGTH_LONG).show();
         }

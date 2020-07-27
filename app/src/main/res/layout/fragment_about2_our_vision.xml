@@ -5,12 +5,16 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="16dp"
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Our Vision"/>
+            style="@style/aboutHead"
+            android:text="@string/vision_head"/>
+
+        <TextView
+            style="@style/aboutBody"
+            android:text="@string/vision_body"/>
 
     </LinearLayout>
 

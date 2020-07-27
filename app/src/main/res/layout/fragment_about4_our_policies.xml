@@ -5,12 +5,115 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="16dp"
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
+            style="@style/aboutHead"
+            android:text="Privacy Policy"/>
+
+        <TextView
+            style="@style/aboutBody"
+            android:text="Privacy Policy\n\nSoftwareshop Limited totally committed to protecting the privacy of our site visitors and customers, and will not disclose information to third parties except where it is part of providing a service. For example, arranging shipping, carrying out credit and other security checks, customer research and profiling or where we have your express permission to do so.\n\nYour Consent\n\nWe will not disclose your name, address, e -mail address, credit card information or personal information to any third party (excluding partners from whom you may have linked to our site) without your permission.\n\nCommunication and Marketing\n\nIf you have made a purchase from our store, we may occasionally update you on our latest products, news and special offers via e-mail, post or telephone. You will also be given the opportunity to receive such communications from us and selected third parties when you become a member of our emailing list.\nAll members may opt -out of receiving marketing communications from us and/or selected third parties. If you do not wish to continue receiving marketing from us and/or selected third parties, you may opt- out by visiting Your Details in your Softwareshopltdaccount. You may also click on the 'unsubscribe' link in any email communications from us.\n\nWhat are Cookies?\n\nA cookie is a small information file that is sent to your computer and stored on your hard drive. If you have registered with us, then your computer will store an identifying cookie to save you time each time you come back to softwareshopltd.com by remembering you. You can change the settings on your browser to prevent cookies being stored on your computer without your explicit consent.\n\nChecking your Details\n\nIf you wish to verify the details you have submitted, you may do so by contacting us via email. Our security procedures mean that we may request proof of identity before we reveal information. This proof of identity will take the form of your e-mail address and password submitted upon registration. You must therefore keep this information safe as you will be responsible for any action, we take in response to a request from someone using your email and password. We strongly recommend that you do not use your browser's password memory function as it might permit others using your terminal to access your personal information.\n\n\n"/>
+
+        <TextView
+            style="@style/aboutHead"
+            android:text="SOFTWARESHOP LIMITED RETURN POLICY\n30-Day Return Policy"/>
+
+        <TextView
+            style="@style/aboutBody"
+            android:text="We want you to feel comfortable and confident when shopping at Softwareshop Limited, that’s why we offer a 30-day return policy. If for any reason you're not satisfied with your purchase, you may return the unused item in its original condition as long as you contact us within 30 days from the delivery date. We understand that, on occasion, you need to return an item. We accept returns on all software and hardware provided the item being returned is unopened, in its original packaging/condition, includes all supplemental materials and it's within 30 days of your original invoice date.\n\nTo return an item, please follow the three simple steps outlined below:\n\nFirst, review the Return Parameters below\n\nSecond, obtain a Return Merchandise Authorization number (RMA) from Softwareshop Limited by email or phone.\n\n
+Third, review, fill out and sign a Return Form available here - all returns must contain a signed copy of our return form\n\n\nPlease note: Items can’t be exchanged more than once. The time frame for this must not exceed 30 days from when the original order was received.\n
+If for any reason you're not satisfied with your purchase, please email service@softwareshopltd.com.com and we'll provide you with further instructions on where returns should be shipped, and the amount you will be refunded. Refund amounts for returned items will be credited to you in the same currency as your original tender. Returns must be made within 30 days of delivery. Customers will only be charged once at most for shipping costs (this includes returns); No-restocking to be charged to the consumers for the return of the product.\n\n\n"/>
+
+
+        <TextView
+            style="@style/aboutHead"
+            android:text="Return Parameters"/>
+
+        <TextView
+            style="@style/aboutBody"
+            android:text="•	Condition: Returns on items that are opened, altered, damaged, used and/or installed are not accepted.\n
+•	COA: If the Certificate of Authenticity (COA) or product keycode/serial number on the software has been activated, lost, damaged, defaced or detached from its backing, the item is not eligible for return.\n
+•	Fees: In order to keep our everyday prices as low as possible, all returns are subject to a minimum restocking fee of 3.5% of the value of the returned items, and a return processing fee of #2500.00.\n
+•	Software Licenses: Electronic software licenses that have been activated are not returnable. Those that have not yet been activated can be returned for a 20% restocking fee.\n
+•	Shipping: Unfortunately, we cannot reimburse shipping fees. Additionally, for your protection, when shipping a return, we suggest using a reputable carrier, and selecting tracking, delivery confirmation and insurance options. We are not responsible for packages lost en-route to us.\n
+•	Hardware: Returned hardware must be in original, resalable condition, must not be damaged in any way, and must include the original materials, manuals, blank warranty cards, and any other accessories.\n
+•	Hardware Testing: Hardware found to be defective after the 30-day limit will fall under the manufacturer's warranty policy and should not be returned to Royal Discount. All reportedly defective products found to be in working order after testing will be returned to the customer, and subject to a #5000.00 testing fee.\n
+•	Defective Hardware: Hardware found to be defective will be repaired, replaced, or refunded if notified within 30 calendar days of original invoice date.\n
+•	Downloads: Downloadable items are not returnable once we have emailed the product key.\n\n\n"/>
+
+        <TextView
+            style="@style/aboutHead"
+            android:text="Refunds\n"/>
+
+        <TextView
+            style="@style/aboutHead"
+            android:text="Getting a Return Merchandise Authorization (RMA) number\n"/>
+
+        <TextView
+            style="@style/aboutBody"
+            android:text="You can obtain an RMA number by sending an email returns@softwareshopltd.com or calling us toll free at +2348037122698. Note you may not be eligible for an RMA number if your return doesn't meet the Return Parameters found in step one.\n\n\n"/>
+
+        <TextView
+            style="@style/aboutHead"
+            android:text="Return Form"/>
+
+        <TextView
+            style="@style/aboutBody"
+            android:text="We will only accept returns that contain a complete, signed copy of our return form, which is available here. \n\n\n"/>
+
+
+        <TextView
+            style="@style/aboutHead"
+            android:text="Orders\n"/>
+
+        <TextView
+            style="@style/aboutHead"
+            android:text="Canceling an Order"/>
+
+        <TextView
+            style="@style/aboutBody"
+            android:text="You may contact us to cancel an order before the Shipping Cut Off Time on the day it is scheduled to ship. If you contact us after this time and your order has already shipped, it will be subject to our Return Policy.\n\n\n"/>
+
+
+        <TextView
+            style="@style/aboutHead"
+            android:text="Defective Items"/>
+
+        <TextView
+            style="@style/aboutBody"
+            android:text="You must notify Softwareshop Limited of defective items within 30 days of your invoice date.\n
+Software is considered defective if the disc is unreadable by a CD-ROM drive or DVD-ROM drive, depending on the specified system requirements. If this happens, Royal Discount will either offer a replacement disc if the product type is 'OEM' or 'CD and Key', or replace the item with the same product. If you have purchased a 'Retail Box,' please contact the manufacturer for media replacement.\n
+Hardware is considered defective if it fails to operate within manufacturer specifications. Defective 'Retail Box' hardware would be covered under the manufacturer's warranty, if applicable. Defective 'OEM' or 'Product Only' hardware will be handled by Royal Discount on a case-by-case basis.\n
+If you report a defective item that's found to be in working order by our technicians there will be a minimum $20.00 testing fee for that item. Should you have a defective item and need a replacement, you have 30 days following receipt of the replacement item to ship the original item back to Royal Discount. After these 30 days have passed, you will be charged for the value of the replacement item.\n\n\n"/>
+
+        <TextView
+            style="@style/aboutHead"
+            android:text="Product Availability"/>
+
+        <TextView
+            style="@style/aboutBody"
+            android:text="Product inventories are updated automatically on our website. Should the very rare occasion happen where you place an order for an item or items that are backordered, we will send you an email with an estimated shipment date. Sometimes we will need to update the ship date or in extremely rare cases cancel your order because we are not able to get more of the item you ordered. Your card will not be charged until we receive the product you ordered and your order ships to you.\n
+Depending on stock, backordered or discontinued items may be switched to an item of equal or greater functionality.\n\n\n"/>
+
+        <TextView
+            style="@style/aboutHead"
+            android:text="System Requirements"/>
+
+        <TextView
+            style="@style/aboutBody"
+            android:text="Minimum system requirements are provided for all software items we sell. By placing an order for software, you agree that the computer system on which you intend to install the software meets or exceeds all minimum system requirements available on our website. \n\n\n"/>
+
+        <Button
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Our Policies"/>
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@drawable/button_background_01"
+            android:text="Click Here to See Our Terms and Conditions"/>
 
     </LinearLayout>
 
